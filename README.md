@@ -97,7 +97,7 @@ USE databasename;
 CREATE TABLE candidates (id int(11) NOT NULL AUTO_INCREMENT, candidatename varchar(50) NOT NULL, email varchar(50) NOT NULL, password varchar(50)NOT NULL, PRIMARY KEY(id));
 ```
 
-![mysql]
+
 
 To look at the candidates table structure, execute
 
@@ -111,7 +111,6 @@ DESCRIBE candidates;
 - Go to _IAM dashboard_, add a new User. Then click on add permissions and grant the following two permissions - _AmazonTranscribeFullAccess_ and _AmazonS3FullAccess_.
 - Then under Security Credentials, click on _Create access key_ to get your credentials i.e,  'aws_access_key_id' and 'aws_secret_access_key'.
 
-![s3-bucket]
 
 
 **Step 5. Setting up IBM Watson for tone analysis**
@@ -175,7 +174,7 @@ company_pswd = ""
 
 __So, basically your project structure would look like:__
 
-![project]
+
 
 
 **Step 7: Run the server**
