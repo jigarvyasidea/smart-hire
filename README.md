@@ -52,7 +52,7 @@ Also, create an AWS Free Tier account, if you don't have it. Services like Amazo
 **Step 1. Clone the repository into a new folder and then switch to code directory**
 
 ```
-$ git clone [https://github.com/gautamgc17/smart-hire](https://github.com/jigarvyasidea/smart-hire)
+$ git clone [https://github.com/jigarvyasidea/smart-hire]
 $ cd smart-hire
 ```
 
