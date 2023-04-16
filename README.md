@@ -240,7 +240,7 @@ Now we're ready to start our flask server:
 view
 
 
-#Selection and rejetion email 
+## Selection and rejetion email 
 ![congratualttionemail](https://user-images.githubusercontent.com/80967728/232264919-268f87d2-24f7-4f4e-b22f-57f668964b9d.png)
 
 
