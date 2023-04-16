@@ -52,7 +52,7 @@ Also, create an AWS Free Tier account, if you don't have it. Services like Amazo
 **Step 1. Clone the repository into a new folder and then switch to code directory**
 
 ```
-$ git clone https://github.com/gautamgc17/smart-hire
+$ git clone [https://github.com/gautamgc17/smart-hire](https://github.com/jigarvyasidea/smart-hire)
 $ cd smart-hire
 ```
 
@@ -97,7 +97,7 @@ USE databasename;
 CREATE TABLE candidates (id int(11) NOT NULL AUTO_INCREMENT, candidatename varchar(50) NOT NULL, email varchar(50) NOT NULL, password varchar(50)NOT NULL, PRIMARY KEY(id));
 ```
 
-![mysql](screenshots/mysql.PNG)
+![mysql]
 
 To look at the candidates table structure, execute
 
@@ -111,7 +111,7 @@ DESCRIBE candidates;
 - Go to _IAM dashboard_, add a new User. Then click on add permissions and grant the following two permissions - _AmazonTranscribeFullAccess_ and _AmazonS3FullAccess_.
 - Then under Security Credentials, click on _Create access key_ to get your credentials i.e,  'aws_access_key_id' and 'aws_secret_access_key'.
 
-![s3-bucket](screenshots/s3.PNG)
+![s3-bucket]
 
 
 **Step 5. Setting up IBM Watson for tone analysis**
@@ -175,7 +175,7 @@ company_pswd = ""
 
 __So, basically your project structure would look like:__
 
-![project](screenshots/structure.PNG)
+![project]
 
 
 **Step 7: Run the server**
@@ -189,13 +189,9 @@ Now we're ready to start our flask server:
 ```
 (venv) $ flask run
 ```
-Visit http://127.0.0.1:5000 to see your app in action
 
-<br>
 
-__To know more about how to set up a flask application on Windows, MacOS or Linux, visit [here](https://phoenixnap.com/kb/install-flask#ftoc-heading-12)__
 
-<br>
 
 
 
