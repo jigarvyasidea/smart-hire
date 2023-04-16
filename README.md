@@ -1,6 +1,6 @@
 # Introduction
 
-__SMART HIRE__ : a project made for "HackUIET" Hackathon with an aim to automate the interview process.
+__SMART HIRE__ : a project made for "Hack IT Sapiens" Hackathon with an aim to automate the interview process.
 
 ## Objective
 
@@ -24,16 +24,13 @@ __SMART HIRE__ : a project made for "HackUIET" Hackathon with an aim to automate
      - View each candidate's profile summary which includes resume, responses to questions, technical skills, personality traits, video and tone analysis result.
      - Update candidate about selection/rejection, further interview process using one-click mail or phone call
 
-## Video Link
-[Project Demonstration](https://drive.google.com/drive/folders/1D5i3sphhTIIBBlRkfxhkuGK2vdK1NoXm?usp=sharing)
 
-## Presentation Slides
-[Presentation Link](https://docs.google.com/presentation/d/1L1slU4owXQ5fTBK6zP6kCrpBuiCoABMF/edit#slide=id.p1)
+
 
 
 <br>
 
-_Though most of the features has been added, yet the complete process is not yet automated as this application is made for HackUIET Hackathon. As of now, the application can be used to store the results of multiple users in mysql server, however sending of mail and candidate profile summary/dashboard can only be generated/viewed for a single user i.e, [topmost user](#Track-candidates)._
+_Though most of the features has been added, yet the complete process is not yet automated as this application is made for HackUIET Hackathon. As of now, the application can be used to store the results of multiple users in mysql server, however sending of mail and candidate profile summary/dashboard can only be generated/viewed for a single user 
 
 <br>
 
@@ -201,45 +198,6 @@ __To know more about how to set up a flask application on Windows, MacOS or Linu
 <br>
 
 
-# Snapshots
-
-### Interviewee Sign Up page
-
-![signup](screenshots/firstpg.png)
-
-### Personality Prediction page
-
-![basicinfo](screenshots/pred.png)
-
-### Streaming Interview of the candidate
-
-![video-stream](screenshots/stream.png)
-
-### 'Thankyou for Taking Interview' Response page
-
-![thankyou](screenshots/thank-resp.PNG)
-
-### Interviewer Sign In page
-
-![signin](screenshots/firstpg(2).png)
-
-### Track candidates
-
-![profiles](screenshots/profiles.PNG)
-
-### Concise insights and summary of candidate profile
-
-![summary](screenshots/info.PNG)
-
-![summary](screenshots/info-2.PNG)
-
-### One-click mail to candidate
-
-![inform](screenshots/mailsent.png)
-
-### Mail to candidate
-
-![email](screenshots/email.PNG)
 
 
 
