@@ -107,10 +107,12 @@ CREATE DATABASE databasename;
 USE databasename;
 CREATE TABLE candidates (id int(11) NOT NULL AUTO_INCREMENT, candidatename varchar(50) NOT NULL, email varchar(50) NOT NULL, password varchar(50)NOT NULL, PRIMARY KEY(id));
 ```
+![mysql](https://user-images.githubusercontent.com/80967728/232264682-68b8d5f0-5c83-4c4f-9a1f-990c93e1276e.png)
 
 
 
 To look at the candidates table structure, execute
+
 
 ```
 DESCRIBE candidates; 
@@ -121,6 +123,7 @@ DESCRIBE candidates;
 - Sign in to your Amazon console and create a _S3 bucket_ and give it a unique name. Note your AWS region as it will be required later.
 - Go to _IAM dashboard_, add a new User. Then click on add permissions and grant the following two permissions - _AmazonTranscribeFullAccess_ and _AmazonS3FullAccess_.
 - Then under Security Credentials, click on _Create access key_ to get your credentials i.e,  'aws_access_key_id' and 'aws_secret_access_key'.
+<img width="1600" alt="aws" src="https://user-images.githubusercontent.com/80967728/232264708-a445ac5c-a78a-451c-b7f4-a5e3a470b1b1.png">
 
 
 
@@ -200,6 +203,45 @@ Now we're ready to start our flask server:
 (venv) $ flask run
 ```
 
+
+
+
+#How it work let understand by iamges
+
+## Interviews signup pages 
+
+![registration and login page](https://user-images.githubusercontent.com/80967728/232264774-7e9bc6a6-dbd4-4a47-aa27-0af92eccab19.png)
+
+
+
+## Candidate Presonal details page 
+
+
+
+![condidate-signup](https://user-images.githubusercontent.com/80967728/232264819-30d9f642-c7e1-489e-b2a8-572a2034bd62.png)
+
+
+
+## Interview panel 
+![video-question-interview](https://user-images.githubusercontent.com/80967728/232264828-69f3a92f-b89c-45f5-a7db-9a8bc7905978.png)
+
+
+## After complete interview page 
+
+![After-interview-slid](https://user-images.githubusercontent.com/80967728/232264846-b6afc767-7af8-4e10-a3a5-6f53d134800e.png)
+
+
+## condidate deshboard
+![deshboardprofile](https://user-images.githubusercontent.com/80967728/232264900-0570abfc-7f8f-4945-8b39-3dd2ca37a488.png)
+
+
+
+## sand email after inter![sand email](https://user-images.githubusercontent.com/80967728/232264884-66050e0d-a98c-47f3-a32d-09f548679423.png)
+view
+
+
+#Selection and rejetion email 
+![congratualttionemail](https://user-images.githubusercontent.com/80967728/232264919-268f87d2-24f7-4f4e-b22f-57f668964b9d.png)
 
 
 
