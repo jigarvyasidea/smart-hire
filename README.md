@@ -1,9 +1,17 @@
-# Introduction
+# Smart Hire
 
-__SMART HIRE__ : a project made for "Hack IT Sapiens" Hackathon with an aim to automate the interview process.
 
-## Objective
+Smart Hire is an automated interview process application built for the "Hack IT Sapiens" Hackathon. The project aims to streamline the recruitment process, making it faster and easier for HR teams to hire candidates. With Smart Hire, candidates can enter their personal details, upload their resumes, and complete a questionnaire to rate themselves. The application also predicts the candidate's personality using machine learning, along with video and tone analysis to check their confidence level and other traits. HR teams can view all registered candidates' details and update them about their selection or rejection through one-click mail 
 
+
+# Project Workflow
+
+## Interviewee
+
++ Enter personal details, upload resume, attempt a questionnaire wherein the candidate has to rate himself/herself
+- Personality prediction (based on Big Five Personality Traits model) with OCEAN values and CV analysis
+- Video recording in browser. The candidate has to answer a few questions put up by the HR team on the portal.
+- Face emotion and Speech Analysis to get insights like confidence level, candidate personality traits
 - Application to automate the hiring process
 - Personality prediction using ML
 - Check confidence and other traits using video and tone analysis
@@ -12,18 +20,18 @@ __SMART HIRE__ : a project made for "Hack IT Sapiens" Hackathon with an aim to a
 - Generate concise insights and provide summary of the candidate's profile
 - Handy application for HR/Recruiting Team
 
-## Project Workflow
-- Interviewee
-     - Enter personal details, upload resume, attempt a questionnaire wherein the candidate has to rate himself/herself
-     - Personality prediction (based on [Big Five Personality Traits](https://www.thomas.co/resources/type/hr-guides/what-are-big-5-personality-traits) model) with OCEAN values and CV analysis
-     - Video recording in browser. The candidate has to answer few questions put up by the HR team on the portal.
-     - Face emotion and Speech Analysis to get insights like confidence level, candidate personality traits
+
      
-- Interviewer/HR team/Admin
+## Interviewer/HR team/Admin
      - View all the registered candidates’ details
      - View each candidate's profile summary which includes resume, responses to questions, technical skills, personality traits, video and tone analysis result.
+     - View all the registered candidates’ details
+     - View each candidate's profile summary which includes resume, responses to questions, technical skills, personality traits, video and tone analysis result
      - Update candidate about selection/rejection, further interview process using one-click mail or phone call
-
+     
+     Please note that although most of the features have been added, the complete process is not yet automated as this application was made for the Hack IT Sapiens Hackathon. As of now, the application can store the results of multiple users in a MySQL server, but sending mail and generating a candidate profile summary/dashboard can only be done for a single user.
+     
+     
 
 
 
@@ -35,6 +43,8 @@ _Though most of the features has been added, yet the complete process is not yet
 <br>
 
 # Installation Guide
+
+## Prerequisites
 This project requires the following tools to get started:
 
 - Python - The programming language used by Flask.
@@ -46,6 +56,7 @@ This project requires the following tools to get started:
 To get started, install Python and MySQL on your local computer if you don't have them already.
 
 Also, create an AWS Free Tier account, if you don't have it. Services like Amazon S3 and Amazon Transcribe API will be used in this project.
+o get started, install Python and MySQL on your local computer if you don't have them already. Also, create an AWS Free Tier account if you don't have one. Services like Amazon S3 and Amazon Transcribe API will be used in this project
 
 ## Getting Started
 
